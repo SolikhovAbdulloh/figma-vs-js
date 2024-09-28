@@ -3,6 +3,8 @@
 //     age:12,
 // }
 
+const { strict } = require("assert");
+
 // let obj2 = {...obj,fullname:obj.name + 'bek'}
 
 // console.log(obj2);
@@ -105,3 +107,10 @@
 // const a = factory(5)
 
 // console.log(a([1,2,3]));
+
+//4-masala
+
+// String.prototype.myNewMethod = function () {
+//   return this.toUpperCase();
+// };
+
