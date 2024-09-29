@@ -4,6 +4,7 @@
 // }
 
 const { strict } = require("assert");
+const { get } = require("http");
 
 // let obj2 = {...obj,fullname:obj.name + 'bek'}
 
@@ -114,3 +115,16 @@ const { strict } = require("assert");
 //   return this.toUpperCase();
 // };
 
+//5-masala
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  get info() {
+    return `${this.name}s age is ${this.age}`;
+  }
+}
+const person = new Person("Johns", 34);
+
+console.log(person.info);
