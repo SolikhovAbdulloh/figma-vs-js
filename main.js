@@ -4,6 +4,7 @@
 // }
 
 const { strict } = require("assert");
+const { log } = require("console");
 const { get } = require("http");
 
 // let obj2 = {...obj,fullname:obj.name + 'bek'}
@@ -116,15 +117,59 @@ const { get } = require("http");
 // };
 
 //5-masala
-class Person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-  get info() {
-    return `${this.name}s age is ${this.age}`;
-  }
-}
-const person = new Person("Johns", 34);
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+//   get info() {
+//     return `${this.name}s age is ${this.age}`;
+//   }
+// }
+// const person = new Person("Johns", 34);
 
-console.log(person.info);
+// console.log(person.info);
+
+//6-masala
+
+// class Person {
+//   constructor(firstName, lastName, age, gender) {
+//     this.firsName = firstName;
+//     this.lastName = lastName;
+//     this.age = age;
+//     this.gender = gender;
+
+//   }
+//   fullName(){
+
+//                 return `${this.firsName} ${this.lastName}`
+//             }
+
+//   }
+
+// obj = new Person('Abdulloh','Solikhov',25,'Erkak')
+
+// console.log(obj.fullName());
+
+// 7-masala
+
+
+
+// 8-masala
+
+// class Animal{
+//   constructor(name,type){
+    
+//     this.name = name;
+//     this.type = type;
+    
+//   } 
+//   toString(){
+
+//    return `${this.name} is a ${this.type}`
+//   }
+// }
+
+// var dog = new Animal('Max','dog')
+
+// console.log(dog.toString());
