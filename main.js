@@ -110,11 +110,7 @@ const { get } = require("http");
 
 // console.log(a([1,2,3]));
 
-//4-masala
 
-// String.prototype.myNewMethod = function () {
-//   return this.toUpperCase();
-// };
 
 //5-masala
 // class Person {
