@@ -3,9 +3,9 @@
 //     age:12,
 // }
 
-const { strict } = require("assert");
-const { log } = require("console");
-const { get } = require("http");
+// const { strict } = require("assert");
+// const { log } = require("console");
+// const { get } = require("http");
 
 // let obj2 = {...obj,fullname:obj.name + 'bek'}
 
