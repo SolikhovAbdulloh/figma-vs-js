@@ -194,7 +194,7 @@ mapObj.set('Yoshi','25')
 
 // let map = new Map()
 
-// const arr = ['olma','Banan','gilos','Nok','Nok']
+// const arr = ['Barcelona','Real','Chelsi','Nokia','Nokia']
 
 // arr.forEach((meva) =>{
 //     if(!map.has(meva)){
@@ -213,7 +213,7 @@ mapObj.set('Yoshi','25')
 
 // let map = new Map()
 
-// let str = 'Banan'
+// let str = 'Abdulloh'
 
 // for(let i = 0 ; i < str.length ; i++){
 //       let char = str[i];
@@ -231,4 +231,17 @@ mapObj.set('Yoshi','25')
 // })
 
 //3-masala
+
+// let arr = ['name','age','color']
+
+// let arr2 = ['Abdulloh',25,'black']
+
+// let map = new Map()
+
+// let result = arr.map((key,value) =>{
+//     return [key,arr2[value]]
+// }
+
+// )
+// console.log(result);
 
