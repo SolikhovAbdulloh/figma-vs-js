@@ -3,6 +3,8 @@
 //     age:12,
 // }
 
+// const { Result } = require("postcss");
+
 // const { strict } = require("assert");
 // const { log } = require("console");
 // const { get } = require("http");
@@ -160,11 +162,11 @@
 // }
 
 
-let mapObj = new Map()
+// let mapObj = new Map()
 
-mapObj.set(123,'Abdulloh')
-mapObj.set(true, "Solikhov");
-mapObj.set('Yoshi','25')
+// mapObj.set(123,'Abdulloh')
+// mapObj.set(true, "Solikhov");
+// mapObj.set('Yoshi','25')
 
 
 // mapObj.delete(123)
@@ -244,4 +246,16 @@ mapObj.set('Yoshi','25')
 
 // )
 // console.log(result);
+
+
+
+// set 1-masala
+
+
+// let arr = [1,2,3,4,4,4,5,5,6,6]
+
+// let Result = new Set([...arr])
+
+// console.log(Result);
+
 
