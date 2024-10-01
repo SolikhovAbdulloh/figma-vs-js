@@ -182,19 +182,53 @@ mapObj.set('Yoshi','25')
 // let arr = [1, 1, 1, 2, 3, 4, 5, 6, 6, 7];
 
 
-// arr.forEach((item) => {
-//   if (map.has(item)) {
-//     map.set(item, map.get(item) + 1); // Agar element mavjud bo'lsa, uning qiymatini 1 ga oshiramiz
-//   } else {
-//     map.set(item, 1); // Agar yangi bo'lsa, 1 ga teng qilib qo'shamiz
-//   }
-// });
-
-// // Natijani konsolga chiqarish
-// map.forEach((value, key) => {
-//   console.log(`${key}: ${value} marta qatnashgan`);
-// });
 
 
 
+
+
+
+
+
+//1-masala
+
+// let map = new Map()
+
+// const arr = ['olma','Banan','gilos','Nok','Nok']
+
+// arr.forEach((meva) =>{
+//     if(!map.has(meva)){
+//         map.set(meva,1)
+//     }else{
+//         map.set(meva,map.get(meva)+1)
+//     }
+// })
+
+// map.forEach((meva,key)=>{
+//     console.log(`${key} ${meva} ta `);
+    
+// })
+
+//2-masala
+
+// let map = new Map()
+
+// let str = 'Banan'
+
+// for(let i = 0 ; i < str.length ; i++){
+//       let char = str[i];
+//     if(!map.has(char)){
+        
+//         map.set(char,1)
+//     }else{
+//         map.set(char, map.get(char)+1)
+//     }
+// }
+
+// map.forEach((char,count) => {
+//     console.log(`${count} ${char}`);
+    
+// })
+
+//3-masala
 
